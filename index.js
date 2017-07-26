@@ -1,4 +1,4 @@
-var number = 12121
+var number = process.argv[2] || 200011
 var output = []
 var sNumber = number.toString()
 var len = sNumber.length
